@@ -1,0 +1,77 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #a393eb;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 1800px;
+  justify-content: center;
+  margin: 0 auto;
+}
+aside {
+  width: 700px;
+  background: #f5c7f7;
+  height: 530px;
+  overflow: auto; /*added this, so we have a scroll in the Open Posotions box */
+  margin-top: 20px;
+}
+
+.positions {
+  line-height: 24px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.job-description {
+  font-size: 14px;
+  line-height: 24px;
+  margin-left: 20px;
+  margin-top: 20px;
+  padding-left: 0;
+  list-style-position: inside;
+}
+
+.select-box {
+  width: 103%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  background: #f5c7f7;
+}
+
+.bold {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+main {
+  padding: 40px 88px 102px 88px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  background: #f5c7f7;
+}
+button {
+  background-color: #5e63b6;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #27296d;
+}

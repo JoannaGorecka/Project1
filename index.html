@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Project Work5</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="wrapper">
+
+  <!--split into main and aside allows us to split the page into two separate columns -->
+  <main>
+    <div id="application-form">
+
+      <p id="message-success"> </p>
+      <h1>Welcome to CFG Application Form</h1>
+      <p id="empty-field-message"> </p>
+      <label for="userName">Name:</label>
+      <input type="text" id="userName" placeholder="Enter your name">
+      <label for="jobInterestArea">Job Interest Area </label>
+      <select class="select-box" id="jobInterestArea">
+        <option value="Developer">Developer</option>
+        <option value="Designer">Designer</option>
+        <option value="Analyst">Analyst</option>
+        <option value="Project Manager">Project Manager</option>
+      </select>
+      <p id="email-message"></p>
+
+      <label for="email">Email:</label>
+      <input type="text" id="email" placeholder="Enter your email address">
+
+      <label for="age">Age:</label>
+      <input type="number" id="age" placeholder="Enter your age">
+      <p id="age-message"> </p>
+
+      <label for="image"> Upload CV:</label>
+      <input type="file" id="myFile" name="filename">
+      <p id="myFile-message"> </p>
+      <button id="submit-button">Submit</button>
+      <button id="clear-button">Clear</button>
+    </div>
+  </main>
+
+  <aside>
+    <h2 class="positions"> Open Positions </h2>
+    <ul class="job-description">
+      <li><span class="bold"> Developer </span> - As a Developer at our company, you will play a crucial role in designing, building, and maintaining software solutions that power our products and services. You'll work closely with cross-functional teams to translate business requirements into efficient, scalable code. Your expertise will contribute to creating user-friendly experiences and innovative features that align with our technology goals. As a developer, you'll have the opportunity to continuously learn and apply new technologies, solve complex challenges, and collaborate with a dynamic team to deliver high-quality solutions that drive our company's success.</li>
+      <li><span class="bold"> Designer </span> - As a Designer with us, you'll be the creative force behind shaping visual aesthetics that capture attention and convey meaningful messages. Your role involves conceptualizing and crafting visually appealing designs for various mediums, such as digital interfaces, print materials, and branding assets. Collaborating closely with cross-functional teams, you'll bring ideas to life that resonate with our audience and enhance the overall user experience. Your keen eye for detail, strong grasp of design principles, and proficiency in design tools will be key in producing impactful visuals that align with our brand identity and business goals. Join our team to transform concepts into captivating designs that leave a lasting impression.</li>
+      <li><span class="bold"> Analyst </span> - As an Analyst at our company, you'll be integral to deciphering and interpreting data to provide valuable insights that drive informed business decisions. Your role involves collecting, organizing, and analyzing data from various sources to identify trends, patterns, and opportunities. By utilizing analytical tools and techniques, you'll generate reports, dashboards, and recommendations that help our organization optimize processes, streamline operations, and enhance performance. Collaborating with stakeholders, you'll translate complex data into clear and actionable insights that support strategic initiatives. Your attention to detail, strong analytical skills, and ability to communicate findings effectively will contribute to driving our company's growth and success through data-driven decision-making.</li>
+      <li><span class="bold"> Project Manager </span> - As a Project Manager with us, you'll be at the helm of planning, executing, and overseeing initiatives that propel our projects forward. Your role involves coordinating resources, timelines, and tasks to ensure successful project delivery within scope, budget, and quality benchmarks. Collaborating closely with cross-functional teams, you'll facilitate communication, manage risks, and maintain project documentation. Your leadership skills will guide the team through challenges, foster collaboration, and drive alignment toward project goals. By monitoring progress and adapting strategies as needed, you'll be instrumental in ensuring projects are completed efficiently and effectively. Join our team to steer projects to success and contribute to our organization's growth through effective project management.</li>
+    </ul>
+  </aside>
+</div>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
